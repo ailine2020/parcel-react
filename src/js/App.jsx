@@ -1,10 +1,6 @@
 import React from "react";
+import {Register} from "./pages/Register"
 
 export const App = () => {
-  const imHappy = true;
-  const element = imHappy ? 
-    <h1>Bonjour, tu es content</h1>: 
-    <h1>Bonjour, tu n'es content</h1>
-
-  return element;
+    return <Register />
 };
